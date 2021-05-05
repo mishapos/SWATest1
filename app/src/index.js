@@ -15,7 +15,7 @@ class FetchDemo extends React.Component {
     }
   
     componentDidMount() {
-      axios.get(`/.api/${this.props.subreddit}`)
+      axios.get(`/api/${this.props.subreddit}`)
         .then(res => {
           console.log(res.data[0])
           var names = res.data;
@@ -41,7 +41,7 @@ class FetchDemo extends React.Component {
           </a>
           <a 
             className="App-link"
-            href="https://cerulean-iguana-839.azurestaticwebsites.net/.auth/login/aad"
+            href="https://victorious-coast-02855ed10.azurestaticapps.net/.auth/login/aad"
           >
           Log in with Azure AD
           </a>
