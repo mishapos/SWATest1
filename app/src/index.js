@@ -31,6 +31,7 @@ class FetchDemo extends React.Component {
           <p>
             Look at this really cool spinny thing we have here!!!
             Misha was here.
+            Updated workflow file
           </p>
           <a
             className="App-link"
