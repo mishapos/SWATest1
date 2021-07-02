@@ -3,8 +3,8 @@
     {"route": "index.html", "headers": {
         "misha-header": "misha-header-value"
       }
-    },
-    ]
+    }
+    ],
     "allowedIpRanges": [
         "192.168.151.121/32"
     ]
