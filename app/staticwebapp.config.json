@@ -7,7 +7,20 @@
             }
         }
     ],
-    "allowedIpRanges": [
-        "0.0.0.1/32"
-    ]
+    {
+        "route": "/login",
+        "methods": null,
+        "allowedRoles": [],
+        "statusCode": null,
+        "redirect": "/.auth/login/aad?post_login_redirect_uri=/index.html",
+        "rewrite": null
+    },
+    {
+        "route": "/logout",
+        "methods": null,
+        "allowedRoles": [],
+        "statusCode": null,
+        "redirect": "/.auth/logout?post_logout_redirect_uri=http%3a%2f%2fgoogle.com",
+        "rewrite": null
+    },
 }
