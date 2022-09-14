@@ -30,6 +30,7 @@ class FetchDemo extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Look at this really cool spinny thing we have here!!!
+                Update 1
           </p>
           <a
             className="App-link"
